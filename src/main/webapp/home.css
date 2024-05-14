@@ -1,0 +1,180 @@
+@charset "UTF-8";
+body{
+  
+  background-repeat:no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+  backdrop-filter: unset;
+  background-position: cover;
+
+
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+#m1 {
+    width: 250px;
+    float: left;
+    margin-right: 10px;
+    }
+    #m2{
+        width:60px;
+        float:right;
+        margin-right:10px;
+      
+    }
+    
+    a {
+    color: #FFF;
+    }
+    
+    #container {
+    
+        padding-left: 35px;
+   
+    }
+    
+    nav {
+    margin: 50px 0;
+    background-color: black;
+    }
+    
+    nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+    }
+    
+    nav ul li {
+    display: inline-block;
+    background-color: black;
+    }
+    
+    nav a {
+    display: block;
+    padding: 0 10px;
+    color: white;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    }
+    
+    nav a:hover {
+    background-color: gray;
+    }
+    
+    
+    nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+    }
+    
+    
+    nav ul li:hover > ul {
+    display: inherit;
+    }
+    
+    /* Fisrt Tier Dropdown */
+    nav ul ul li {
+    width: 250px;
+    float: none;
+    display: list-item;
+    position: relative;
+    }
+    .sign{
+        float: right;
+    }
+
+
+ 
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+      
+      .welcome-box {
+        width: 800px;
+        background-color: #f2f2f2;
+        border-radius: 8px;
+        padding: 40px;
+        text-align: center;
+        margin: 100px auto;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        opacity:0.8;
+      }
+      
+      .welcome-box h1 {
+        font-size: 36px;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      
+      .welcome-box p {
+        font-size: 18px;
+        color: #666;
+        margin-bottom: 30px;
+      }
+      
+      .btn {
+        background-color: #337ab7;
+        color: #fff;
+        padding: 14px 28px;
+        border-radius: 4px;
+        text-decoration: none;
+        font-size: 20px;
+        transition: background-color 0.3s ease;
+      }
+      
+      .btn:hover {
+        background-color: #23527c;
+      }
+      
+      .menu{
+        font-family: Tahoma, Verdana, sans-serif;
+      }
+      p{
+        font-family:Geneva, Verdana, sans-serif;
+      }
+      .m_footer{
+        left:0;
+          bottom:0;
+          position:inherit;
+        width: 100%;
+        background-color: rgb(147, 147, 215);
+      
+        
+      }
+      #m_about{
+        color:#EFEFEF;
+        background-color:rgb(73, 73, 158);
+        border-color: rgb(73, 73, 158);	
+        font-size: 30px;
+        border-radius: 8px;
+        margin: 20px;
+        inline-size: 150px;
+        margin-bottom: 50px;
+        
+      }
+      #m_contact{
+        float: right;
+        color:white;
+        font-size: 30px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-top:15px;
+        margin-right:10px;
+      }
+      #m_icon{
+        text-align:right;
+        margin-right: 20px;
+        margin-bottom: 10px;;
+        color:white;
+        
+      }

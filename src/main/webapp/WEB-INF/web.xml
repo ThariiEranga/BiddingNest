@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee
+         http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+	<servlet>
+		<servlet-name>feedback</servlet-name>
+		<servlet-class>feedbackentry.feedbackservlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>feedback</servlet-name>
+		<url-pattern>/feedback</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>feed</servlet-name>
+		<servlet-class>feedbackentry.updatefeedbackServelet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>feed</servlet-name>
+		<url-pattern>/feed</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>delete</servlet-name>
+		<servlet-class>feedbackentry.deletefeedbackserverlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>delete</servlet-name>
+		<url-pattern>/delete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>deleteFeedback</servlet-name>
+		<servlet-class>feedbackentry.DeleteFeedback</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>deleteFeedback</servlet-name>
+		<url-pattern>/deleteFeedback</url-pattern>
+	</servlet-mapping>
+
+	
+</web-app>
